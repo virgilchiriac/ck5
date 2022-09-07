@@ -7,10 +7,7 @@ env:
   node: 16
 jobs:
   build_and_push_editor:
-    strategy:
-      matrix:
-        os: [ ubuntu-latest ]
-    runs-on: ${{ matrix.os }}
+    runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v2
       - name: setup node
