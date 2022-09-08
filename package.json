@@ -16,7 +16,7 @@
     "url": "https://github.com/virgilchiriac/ck5/issues"
   },
   "homepage": "https://github.com/virgilchiriac/ck5#readme",
-  "dependencies": {
+  "devDependencies": {
     "@ckeditor/ckeditor5-adapter-ckfinder": "^35.1.0",
     "@ckeditor/ckeditor5-basic-styles": "^35.1.0",
     "@ckeditor/ckeditor5-dev-utils": "^30.5.0",
